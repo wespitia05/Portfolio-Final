@@ -276,7 +276,7 @@ section {
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     color: white;
 }
 
@@ -287,26 +287,49 @@ section {
 }
 
 .experience img {
-    width: 10vw;
+    width: 8vw;
     border-radius: 3rem;
+    padding: 5px 5px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    grid-template-rows: repeat(3);
+    gap: 1rem;
+    width: 40%;
 }
 
 .grid-card-1, .grid-card-2, .grid-card-3 {
     border: rgb(131, 190, 253) 0.2rem solid;
     border-radius: 25px;
-    padding: 1rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    padding: 10px 10px;
+    overflow: none;
+}
+
+.grid-card-1 .job-1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-card-2 .job-2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-card-3 .job-3 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .grid-card-1:hover, .grid-card-2:hover, .grid-card-3:hover {
@@ -318,13 +341,16 @@ section {
 
 .grid-card-1 h3, .grid-card-2 h3, .grid-card-3 h3 {
     color: white;
-    font-size: 19px;
-    padding: 3px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px;
 }
 
 .grid-card-1 p, .grid-card-2 p, .grid-card-3 p{
     color: white;
-    padding: 2px;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px;
 }
 
 .job-1-details, .job-2-details,
@@ -333,22 +359,33 @@ section {
 }
 
 .grid-card-1.expanded .job-1-details {
-    display: block;
+    display: inline-block;
+    width: 100%;
+    text-align: justify;
     position: relative;
     color: white;
     font-size: 13px;
 }
 
 .grid-card-2.expanded .job-2-details {
-    display: block;
+    display: inline-block;
+    width: 100%;
     position: relative;
     color: white;
     font-size: 13px;
 }
 
 .grid-card-3.expanded .job-3-details {
-    display: block;
+    display: inline-block;
+    width: 100%;
     position: relative;
     color: white;
     font-size: 13px;
+}
+
+.grid-card-1.expanded, .grid-card-2.expanded, 
+.grid-card-3.expanded {
+    width: 200%;
+    align-items: center;
+    justify-self: center;
 }
