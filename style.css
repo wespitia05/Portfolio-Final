@@ -80,6 +80,7 @@ li a:hover::before {
     display: none; /* menu icon will not be displayed until responsiveness */
 }
 
+/* visit github button */
 .visit-btn {
     flex-direction: row;
     padding: 0.8rem 1.5rem;
@@ -99,6 +100,7 @@ li a:hover::before {
     transform: scale(1.03);
 }
 
+/* targets all sections */
 section {
     min-height: 100vh;
     padding: 8rem 12%; /* 8rem padding on top/bottom, 12% on left/right */
@@ -106,6 +108,7 @@ section {
     position: relative;
 }
 
+/* PROFILE SECTION */
 .profile {
     display: flex;
     align-items: center;
@@ -128,6 +131,7 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     justify-content: center;
     gap: 1.5rem;
 }
@@ -136,16 +140,76 @@ section {
     font-size: 1.8rem;
     font-weight: 500;
     opacity: 0.8;
+    color: white;
 }
 
 .info-box h1 {
     font-size: 4rem;
     font-weight: 600;
+    color: white;
 }
 
-.info-box span {
-    background: linear-gradient(to right, rgb(0, 157,255), rgb(255, 0, 255));
+.info-box h2 {
+    background: linear-gradient(to right, rgb(108, 201, 248), rgb(219, 237, 248));
     background-clip: text;
     color: transparent;
     font-size: 2rem;
+}
+
+.btn-group {
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+
+.btn:hover {
+    width: auto;
+    background: #081b29;
+    justify-content: center;
+    color: rgb(110, 192, 250);
+    transform: scale(1.03);
+}
+
+.btn {
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    border: rgb(131, 190, 253) 0.1rem solid;
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.socials a {
+    padding: 5px;
+    border: rgb(131, 190, 253) 0.1rem solid;
+    border-radius: 10px;
+    transform-origin: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.socials a:hover {
+    width: auto;
+    background: #081b29;
+    justify-content: center;
+    transform: scale(1.03);
+    i {
+        color: rgb(110, 192, 250);
+    }
+    span {
+        color: rgb(110, 192, 250);
+    }
+}
+
+.socials i {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.socials span {
+    font-size: 1.6rem;
+    color: white;
 }
