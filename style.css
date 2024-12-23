@@ -213,3 +213,85 @@ section {
     font-size: 1.6rem;
     color: white;
 }
+
+/* EXPERIENCE SECTION */
+.section-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.experience-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience img {
+    width: 10vw;
+    border-radius: 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.grid-card-1, .grid-card-2, .grid-card-3 {
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 25px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.grid-card-1:hover, .grid-card-2:hover, .grid-card-3:hover {
+    width: auto;
+    background: #081b29;
+    justify-content: center;
+    transform: scale(1.03);
+}
+
+.grid-card-1 h3, .grid-card-2 h3, .grid-card-3 h3 {
+    color: white;
+    font-size: 19px;
+    padding: 3px;
+}
+
+.grid-card-1 p, .grid-card-2 p, .grid-card-3 p{
+    color: white;
+    padding: 2px;
+}
+
+.job-1-details, .job-2-details,
+.job-3-details {
+    display: none;
+}
+
+.grid-card-1.expanded .job-1-details {
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 13px;
+}
+
+.grid-card-2.expanded .job-2-details {
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 13px;
+}
+
+.grid-card-3.expanded .job-3-details {
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 13px;
+}
