@@ -265,6 +265,11 @@ section {
     color: white;
 }
 
+.about-me-box .about-me-text {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
 
 /* EXPERIENCE SECTION */
 .section-title {
