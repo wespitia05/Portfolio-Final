@@ -79,3 +79,10 @@ header {
         display: none; /* menu icon will not be displayed until responsiveness */
     }
 }
+
+section {
+    min-height: 100vh;
+    padding: 8rem 12%; /* 8rem padding on top/bottom, 12% on left/right */
+    width: 100%;
+    position: relative;
+}
