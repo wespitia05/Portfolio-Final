@@ -214,6 +214,58 @@ section {
     color: white;
 }
 
+/* ABOUT SECTION */
+.about .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.about img {
+    width: 25vw;
+    border-radius: 3rem;
+}
+
+.about-me-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.about-me-box .school {
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    border: rgb(131, 190, 253) 0.2rem solid;
+}
+
+.about-me-box .school:hover {
+    width: auto;
+    background: #081b29;
+    justify-content: center;
+    transform: scale(1.03);
+}
+
+.about-me-box .school i {
+    font-size: 2rem;
+}
+
+.about-me-box .school h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.8;
+    color: white;
+}
+
+.about-me-box .school p {
+    font-size: 1rem;
+    color: white;
+}
+
+
 /* EXPERIENCE SECTION */
 .section-title {
     text-align: center;
