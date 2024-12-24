@@ -28,5 +28,100 @@
     header .visit-btn {
         font-size: 0.9rem;
     }
+    .profile .profile-container{
+        gap: 1rem;
+    }
+    .profile img {
+        width: 36vw;
+    }
+    .about img {
+        width: 35vw;
+    }
+    .experience img {
+        width: 13vw;
+    }
+    .grid {
+        width: 90%;
+    }
+    .project-card-1, .project-card-2, .project-card-3 {
+        padding: 10px;
+        height: 300px;
+    }
+}
 
+@media(max-width:600px) {
+    header #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 3rem;
+        display: none;
+    }
+    .nav-links li {
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+    }
+    .nav-links.open {
+        display: block;
+    }
+    header {
+        padding: 1rem 3rem;
+        gap: 4rem;
+    }
+    header .logo {
+        font-size: 1.5rem;
+    }
+    .profile .profile-container {
+        margin-top: 1rem;
+        flex-direction: column;
+        img {
+            width: 50vw;
+        }
+        .info-box {
+            h3 {
+                font-size: 1.2rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1rem;
+            }
+        }
+        .socials {
+            gap: 2rem;
+        }
+    }
+    .about .about-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .about-me-text {
+            font-size: 16px;
+            text-align: justify;
+        }
+    }
+    .about .about-me-box .school {
+        i {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+        }
+        p {
+            font-size: 0.75rem;
+        }
+    }
 }
