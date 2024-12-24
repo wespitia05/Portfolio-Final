@@ -162,6 +162,10 @@ section {
     color: white;
 }
 
+.btn-group a {
+    color: white;
+}
+
 .btn:hover {
     width: auto;
     background: #081b29;
