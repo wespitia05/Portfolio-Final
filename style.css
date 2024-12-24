@@ -313,6 +313,9 @@ section {
     transition: 0.2s ease-in-out;
     padding: 10px 10px;
     overflow: none;
+    .reduce {
+        display: none;
+    }
 }
 
 .grid-card-1 .job-1 {

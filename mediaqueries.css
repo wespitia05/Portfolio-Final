@@ -1,0 +1,32 @@
+@media(max-width:1280px) {
+    header {
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+    .profile .profile-container {
+        gap: 3rem;
+    }
+    .about .about-container {
+        gap: 3rem;
+    }
+    .skills-containers {
+        gap: 1rem;
+    }
+}
+
+@media(max-width:768px) {
+    header {
+        gap: 1rem;
+        padding: 1rem 1rem;
+    }
+    header .logo {
+        font-size: 1.25rem;
+    }
+    header .nav-links {
+        font-size: 1rem;
+    }
+    header .visit-btn {
+        font-size: 0.9rem;
+    }
+
+}
