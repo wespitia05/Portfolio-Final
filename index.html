@@ -209,14 +209,16 @@
         </div>
     </section>
     <section class="contact" id="contact" >
-        <div class="input-box">
+        <form action="https://api.web3forms.com/submit" method="POST" class="input-box">
             <h2 class="section-title">Contact Me</h2>
             <div class="input">
-                <input type="text" placeholder="example@email.com">
-                <i class='bx bx-envelope' style='color: white'></i>
+                <input type="hidden" name="access_key" value="41647839-7bb6-4196-a7bd-8e0fe7ac9580">
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="example@email.com" class="contact-input" required>
+                <textarea name="message" placeholder="Your Message" style="color: black;" class="contact-input-text"></textarea>
             </div>
-            <div class="visit-btn">Submit</div>
-        </div>
+            <button class=".submit-btn" type="submit">Submit Form</button>
+        </form>
     </section>
     <footer>
         <ul>
