@@ -488,6 +488,138 @@ section {
     }
 }
 
+/* PROJECTS SECTION */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 2rem;
+}
+
+.project-card-1, .project-card-2, .project-card-3 {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: rgb(131, 190, 253) 0.2rem solid;
+    border-radius: 3rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    height: 400px;
+    .reduce {
+        display: none;
+    }
+}
+
+.project-card-1:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-10px)scale(1.02);
+}
+
+.project-card-2:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-10px)scale(1.02);
+}
+
+.project-card-3:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-10px)scale(1.02);
+}
+
+.project-card-1 img {
+    width: 20vw;
+    display: none;
+}
+
+.project-card-2 img {
+    width: 20vw;
+    display: none;
+}
+
+.project-card-3 img {
+    width: 20vw;
+    display: none;
+}
+
+.project-card-1.expanded,
+.project-card-2.expanded,
+.project-card-3.expanded {
+    height: 100%;
+    .large {
+        display: none;
+    }
+    .reduce {
+        display: flex;
+    }
+}
+
+.project-card-1.expanded img,
+.project-card-2.expanded img,
+.project-card-3.expanded img {
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card-1 button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    border: rgb(131, 190, 253) 0.1rem solid;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, rgb(0, 157,255), rgb(255, 0, 255));
+}
+
+.project-card-1 button:hover {
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157,255));
+    transform: scale(1.03);
+}
+
+.project-card-2 button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    border: rgb(131, 190, 253) 0.1rem solid;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, rgb(0, 157,255), rgb(255, 0, 255));
+}
+
+.project-card-2 button:hover {
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157,255));
+    transform: scale(1.03);
+}
+
+.project-card-3 button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    border: rgb(131, 190, 253) 0.1rem solid;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, rgb(0, 157,255), rgb(255, 0, 255));
+}
+
+.project-card-3 button:hover {
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157,255));
+    transform: scale(1.03);
+}
+
 /* CONTACT SECTION */
 .input-box {
     display: flex;

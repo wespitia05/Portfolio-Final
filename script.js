@@ -7,3 +7,15 @@ function toggleJob(container) {
         }
     });
 }
+
+function toggleImage(card) {
+    // Toggle the expanded class for the clicked card
+    card.classList.toggle("expanded");
+
+    // Reset other cards
+    document.querySelectorAll('.project-card-1, .project-card-2, .project-card-3').forEach(otherCard => {
+        if (otherCard !== card) {
+            otherCard.classList.remove("expanded");
+        }
+    });
+}
