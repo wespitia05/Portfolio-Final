@@ -154,7 +154,7 @@
 
 @media (max-width: 375px) {
     body {
-        background-size: auto; /* Keeps the background's original size */
+        background-size: cover; /* Keeps the background's original size */
         background-position: center; /* Ensures it stays centered */
         background-attachment: fixed; /* Keeps the background fixed */
     }
@@ -294,7 +294,7 @@
 
 @media (max-width: 390px) {
     body {
-        background-size: auto; /* Keeps the background's original size */
+        background-size: cover; /* Keeps the background's original size */
         background-position: center; /* Ensures it stays centered */
         background-attachment: fixed; /* Keeps the background fixed */
     }
