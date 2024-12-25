@@ -483,6 +483,7 @@
         padding-bottom: 0.5rem;
     }
     .profile .profile-container {
+        margin-top: -60px;
         flex-direction: column;
         gap: 0.25rem;
         text-align: center;
