@@ -153,12 +153,6 @@
 }
 
 @media (max-width: 375px) {
-    body {
-        background-size: cover; /* Keeps the background's original size */
-        background-position: center; /* Ensures it stays centered */
-        background-attachment: fixed; /* Keeps the background fixed */
-        height: 100vh;
-    }
     /* Header adjustments */
     header {
         align-items: center;
@@ -294,12 +288,6 @@
 }
 
 @media (max-width: 390px) {
-    body {
-        background-size: cover; /* Keeps the background's original size */
-        background-position: center; /* Ensures it stays centered */
-        background-attachment: fixed; /* Keeps the background fixed */
-        height: 100vh;
-    }
     /* Header adjustments */
     header {
         align-items: center;
