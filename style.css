@@ -103,7 +103,7 @@ li a:hover::before {
 /* targets all sections */
 section {
     min-height: 100vh;
-    padding: 8rem 12%; /* 8rem padding on top/bottom, 12% on left/right */
+    padding: 2rem 12%; /* 8rem padding on top/bottom, 12% on left/right */
     width: 100%;
     position: relative;
 }
@@ -494,7 +494,7 @@ section {
 /* PROJECTS SECTION */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 2rem;
 }
 
