@@ -153,6 +153,9 @@
 }
 
 @media (max-width: 375px) {
+    body {
+        background-image: url(./imgs/home-mobile.JPG);
+    }
     /* Header adjustments */
     header {
         align-items: center;
@@ -288,6 +291,9 @@
 }
 
 @media (max-width: 390px) {
+    body {
+        background-image: url(./imgs/home-mobile.JPG);
+    }
     /* Header adjustments */
     header {
         align-items: center;
