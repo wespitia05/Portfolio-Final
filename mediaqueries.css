@@ -153,6 +153,11 @@
 }
 
 @media (max-width: 375px) {
+    body {
+        background-size: auto; /* Keeps the background's original size */
+        background-position: center; /* Ensures it stays centered */
+        background-attachment: fixed; /* Keeps the background fixed */
+    }
     /* Header adjustments */
     header {
         align-items: center;
@@ -288,6 +293,11 @@
 }
 
 @media (max-width: 390px) {
+    body {
+        background-size: auto; /* Keeps the background's original size */
+        background-position: center; /* Ensures it stays centered */
+        background-attachment: fixed; /* Keeps the background fixed */
+    }
     /* Header adjustments */
     header {
         align-items: center;
@@ -399,6 +409,9 @@
     .contact .input-box {
         width: 90%;
         margin: 0 auto;
+    }
+    .contact .section-title {
+        padding-top: 2rem;
     }
     .contact .input-box .input {
         padding: 0.25rem 1rem;
