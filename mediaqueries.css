@@ -157,6 +157,7 @@
         background-size: cover; /* Keeps the background's original size */
         background-position: center; /* Ensures it stays centered */
         background-attachment: fixed; /* Keeps the background fixed */
+        height: 100vh;
     }
     /* Header adjustments */
     header {
@@ -297,6 +298,7 @@
         background-size: cover; /* Keeps the background's original size */
         background-position: center; /* Ensures it stays centered */
         background-attachment: fixed; /* Keeps the background fixed */
+        height: 100vh;
     }
     /* Header adjustments */
     header {
