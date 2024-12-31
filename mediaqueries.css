@@ -819,7 +819,7 @@
         text-align: center;
     }
     .about img {
-        width: 60vw;
+        width: 50vw;
         margin-top: -40px;
     }
     .about .about-me-box {
@@ -855,9 +855,12 @@
     }
 
     /* Skills section */
+    .skills .section-title {
+        margin-bottom: -20px;
+    }
     .skills-containers {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
         text-align: center;
     }
     .skills-pics {
