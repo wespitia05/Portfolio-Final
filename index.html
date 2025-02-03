@@ -270,6 +270,18 @@
         </form>
         
     </section>
+    <section class="chatbox" id="chatbox">
+        <h2 class="section-title">Ask JARVIS</h2>
+        <div class="chat-container">
+            <div class="chat-box" id="chat-msgs">
+                <!--messages will appear here-->
+            </div>
+            <div class="input">
+                <input type="text" id="chat-input" placeholder="Type a message" onkeydown="handleKeyPress(event)">
+                <button onclick="sendMsg()">Send</button>
+            </div>
+        </div>
+    </section>
     <footer>
         <ul>
             <li>
