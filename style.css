@@ -818,3 +818,54 @@ footer ul li a {
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157,255));
     transform: scale(1.03);
 }
+
+/* Chat Messages */
+.chat-message {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* AI Message (Left Side) */
+.chat-message.ai {
+    justify-content: flex-start;
+    background: rgba(0, 157, 255, 0.2);
+    border-left: 3px solid rgb(0, 157, 255);
+}
+
+/* User Message (Right Side) */
+.chat-message.user {
+    justify-content: flex-end;
+    background: rgba(174, 173, 173, 0.535);
+    border-right: 3px solid rgb(255, 0, 255);
+    align-self: flex-end;
+}
+
+/* Chat Icons */
+.chat-icon {
+    width: 30px;
+    height: 30px;
+    background: rgb(131, 190, 253);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+/* Chat Text */
+.chat-text {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 90%;
+    word-wrap: break-word;
+}
