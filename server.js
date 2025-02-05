@@ -6,7 +6,13 @@ const fs = require("fs");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+const corsOptions = {
+    origin: "*", // Allows requests from any device
+    methods: "GET,POST,OPTIONS",
+    allowedHeaders: "Content-Type",
+};
+app.use(cors(corsOptions));
+
 
 // Load Azure OpenAI credentials from .env
 const endpoint = process.env.AZURE_OPENAI_ENDPOINT;

@@ -45,7 +45,7 @@ async function sendMsg() {
     inputField.value = "";
 
     try {
-        let response = await fetch("http://localhost:4000/api/chat", {  // Update the API URL if deployed
+        let response = await fetch("https://portfolio-final-k8lf.onrender.com/api/chat", {  // Update the API URL if deployed
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: message })
