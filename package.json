@@ -1,5 +1,17 @@
 {
+  "name": "jarvis-chatbot",
+  "version": "1.0.0",
+  "description": "AI Chatbot powered by OpenAI",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "@azure/openai": "^2.0.0"
+    "@azure/openai": "^2.0.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }

@@ -35,17 +35,30 @@ document.addEventListener("DOMContentLoaded", function() {
     );
 });
 
-function sendMsg() {
+async function sendMsg() {
     let inputField = document.getElementById("chat-input");
     let message = inputField.value.trim();
     if (message === "") return;
 
-    // Display user message with user icon
+    // Display user message
     displayMessage(message, "user");
-
-    // Clear input field
     inputField.value = "";
+
+    try {
+        let response = await fetch("http://localhost:4000/api/chat", {  // Update the API URL if deployed
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: message })
+        });
+
+        let data = await response.json();
+        displayMessage(data.reply, "ai");
+    } catch (error) {
+        console.error("Error connecting to AI:", error);
+        displayMessage("Error: Unable to connect to JARVIS AI.", "ai");
+    }
 }
+
 
 // Function to display messages in the chatbox
 function displayMessage(message, sender) {
