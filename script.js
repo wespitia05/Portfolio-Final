@@ -13,7 +13,7 @@ function toggleImage(card) {
     card.classList.toggle("expanded");
 
     // Reset other cards
-    document.querySelectorAll('.project-card-1, .project-card-2, .project-card-3').forEach(otherCard => {
+    document.querySelectorAll('.project-card-1, .project-card-2, .project-card-3, .project-card-4').forEach(otherCard => {
         if (otherCard !== card) {
             otherCard.classList.remove("expanded");
         }

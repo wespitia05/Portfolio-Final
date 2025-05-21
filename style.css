@@ -108,6 +108,14 @@ section {
     position: relative;
 }
 
+.section-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}
+
 /* PROFILE SECTION */
 .profile {
     display: flex;
@@ -276,12 +284,8 @@ section {
 }
 
 /* EXPERIENCE SECTION */
-.section-title {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: white;
+.experience .section-title {
+    margin-top: -1rem;
 }
 
 .experience-info {
@@ -398,6 +402,10 @@ section {
 }
 
 /* SKILLS SECTION */
+.skills .section-title {
+    margin-top: -1rem;
+}
+
 .skills-containers {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -492,13 +500,17 @@ section {
 }
 
 /* PROJECTS SECTION */
+.projects .section-title {
+    margin-top: -1rem;
+}
+
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(2, minmax(200px,1fr));
     gap: 2rem;
 }
 
-.project-card-1, .project-card-2, .project-card-3 {
+.project-card-1, .project-card-2, .project-card-3, .project-card-4 {
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
@@ -535,6 +547,12 @@ section {
     transform: translateY(-10px)scale(1.02);
 }
 
+.project-card-4:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-10px)scale(1.02);
+}
+
 .project-card-1 img {
     width: 20vw;
     display: none;
@@ -550,9 +568,15 @@ section {
     display: none;
 }
 
+.project-card-4 img {
+    width: 20vw;
+    display: none;
+}
+
 .project-card-1.expanded,
 .project-card-2.expanded,
-.project-card-3.expanded {
+.project-card-3.expanded,
+.project-card-4.expanded {
     height: 100%;
     .large {
         display: none;
@@ -619,6 +643,24 @@ section {
 }
 
 .project-card-3 button:hover {
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157,255));
+    transform: scale(1.03);
+}
+
+.project-card-4 button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    border: rgb(131, 190, 253) 0.1rem solid;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, rgb(0, 157,255), rgb(255, 0, 255));
+}
+
+.project-card-4 button:hover {
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157,255));
     transform: scale(1.03);
 }

@@ -6,10 +6,11 @@ Zip Code: 11706
 Phone Number: +16318276068
 Email: williamespitia97@yahoo.com
 Education: BS in Mechanical Engineering, Graduated December 2021 From Farmingdale State College
-           BS in Computer Science, Expected Graduation May 2025 From Farmingdale State College
+           BS in Computer Science, Graduated May 2025 From Farmingdale State College
 Mechanical Engineering Related Coursework: Computer Aided Drafting & Design, Manufacturing Processes, Tool Design, Applied Thermodynamics, Machine Product & Design, Robotics, Applied Fluid Mechanics, HVAC Systems.
 Mechanical Engineering Senior Project: Designed automation system with Richlin Machinery, Inc. where two halves of a container are sorted, flipped, filled, and dispersed for packaging.
 Computer Science Coursework: Data Structures & Algorithms, Data Management, Computer Programming, Computer Architecture and Organization, Software Engineering.
+Computer Science Senior Project: Designed full stack social movie review platform using HTML, CSS, JavaScript and Firebase, while utilizing TMDB API to fetch and display movie metadata for a unique user experience.
 Skills & Certifications:
     - Programming: Java, JavaFX, SQL, SceneBuilder, Python, CSS, HTML, JS, MATLAB, CATIA
     - Tools: Eclipse, NetBeans, Atom, IntelliJ, Visual Studio, MySQL, Microsoft SQL Server
@@ -28,6 +29,7 @@ Work Experience:
         - Duties: o	Cleaned and organized my department throughout the day, provided customer service, maintained sales floor stocked for integrity and appearance and engaged with customers in a sincere and friendly manner.
                   o	Exhibited strong Loss Prevention awareness, complied all inventory measures, and collaborated and trained team members to maintain a professional appearance while also satisfying customer needs.
 Projects:
+    - Plot Twist (HTML, CSS, JavaScript, FireStore): Developed full stack social platform for writing and viewing movie reviews using HTML, CSS and JavaScript.	Integrated Firebase Authentication and Firestore Database to handle user sessions, review persistence, social features and real-time data sync, and utilized TMDB API to fetch and display movie metadata, posters and banners with interactive UI elements such as star ratings and editable review modals.
     - Developed a JavaFX GUI game using Java to guess shapes utilizing animated visual feedback for correct/incorrect guesses, with integrated Microsoft Access DB for tracking/storing user guesses using JDBC for database connectivity and programmed shape animations and GUI controls for an interactive user experience.
     - Developed a JavaFX GUI application using Java to manage/manipulate Normal and Priority Queues containing grade items and integrated JSON for importing/exporting queue data to ensure data persistence.
     - Developed a JavaFX GUI application using Java for managing movie records with functionalities to add, delete and display records from a Microsoft Access DB, incorporated JSON file import/export and validated user inputs for data integrity and utilized a status bar and pop-up error messages for further user experience and feedback.
