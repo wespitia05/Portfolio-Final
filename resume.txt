@@ -12,10 +12,10 @@ Mechanical Engineering Senior Project: Designed automation system with Richlin M
 Computer Science Coursework: Data Structures & Algorithms, Data Management, Computer Programming, Computer Architecture and Organization, Software Engineering.
 Computer Science Senior Project: Designed full stack social movie review platform using HTML, CSS, JavaScript and Firebase, while utilizing TMDB API to fetch and display movie metadata for a unique user experience.
 Skills & Certifications:
-    - Programming: Java, JavaFX, SQL, SceneBuilder, Python, CSS, HTML, JS, MATLAB, CATIA
-    - Tools: Eclipse, NetBeans, Atom, IntelliJ, Visual Studio, MySQL, Microsoft SQL Server
-    - Certifications: AWS Cloud Practitioner (In Progress)
-    - Engineering Programs: AutoCAD, Inventor, SolidWorks, MasterCam, Multisim
+    - Programming & Scripting: Java, Python, JavaScript, HTML, CSS, SQL, MATLAB
+    - Frameworks & Libraries: Flask, Pandas, Scikit-Learn, JavaFX, Scene Builder, REST API
+    - Developer Tools: Git, GitHub, IntelliJ IDEA, Eclipse, NetBeans, Visual Studio, Firestore, Microsoft SQL Server
+    - Engineering: CATIA, AutoCAD, Inventor, SolidWorks, MasterCam, Multisim, MS Word, Excel, PowerPoint
     - Other Programs: MS Word, Powerpoint, Excel
 Work Experience:
     - Heavy Magnetics Assembler at Ultra Maritime in Yaphank, New York from August 2022 - Present.
@@ -29,7 +29,14 @@ Work Experience:
         - Duties: o	Cleaned and organized my department throughout the day, provided customer service, maintained sales floor stocked for integrity and appearance and engaged with customers in a sincere and friendly manner.
                   o	Exhibited strong Loss Prevention awareness, complied all inventory measures, and collaborated and trained team members to maintain a professional appearance while also satisfying customer needs.
 Projects:
-    - Plot Twist (HTML, CSS, JavaScript, FireStore): Developed full stack social platform for writing and viewing movie reviews using HTML, CSS and JavaScript.	Integrated Firebase Authentication and Firestore Database to handle user sessions, review persistence, social features and real-time data sync, and utilized TMDB API to fetch and display movie metadata, posters and banners with interactive UI elements such as star ratings and editable review modals.
+    - Plot Twist (HTML, CSS, JavaScript, FireStore): 
+        - Developed a responsive, full-stack social movie review platform supporting 20+ active users with real-time review creation, editing, and social interactions.
+        - Integrated Firebase Authentication and cloud-hosted Firestore NoSQL database to manage user sessions, review persistence, and social features (followers, blocked users, favorites) with real-time synchronization.
+        - Consumed RESTful TMDB API to dynamically retrieve and display data for 500+ movies, including metadata, posters, and banners, with interactive UI/UX components such as star ratings and editable review modals.
+    - Courtside Predictor (HTML, CSS, JavaScript, Python, Pandas, Flask, Scikit-Learn):
+        - Built a Flask web app analyzing 300+ NBA games (2023–2025) using Python, Pandas, and nba_api, enabling users to explore team/player stats and historical performance trends.
+        - Trained and deployed logistic regression models with scikit-learn to predict 2025–26 season team win probabilities and player over/under performance probabilities, achieving 74.65% historical accuracy.
+        - Designed a responsive HTML/CSS/JavaScript interface with Flask routing for smooth navigation between stats, predictions, and insights.
     - Developed a JavaFX GUI game using Java to guess shapes utilizing animated visual feedback for correct/incorrect guesses, with integrated Microsoft Access DB for tracking/storing user guesses using JDBC for database connectivity and programmed shape animations and GUI controls for an interactive user experience.
     - Developed a JavaFX GUI application using Java to manage/manipulate Normal and Priority Queues containing grade items and integrated JSON for importing/exporting queue data to ensure data persistence.
     - Developed a JavaFX GUI application using Java for managing movie records with functionalities to add, delete and display records from a Microsoft Access DB, incorporated JSON file import/export and validated user inputs for data integrity and utilized a status bar and pop-up error messages for further user experience and feedback.

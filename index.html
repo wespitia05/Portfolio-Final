@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="icon" type="image/jpg" href="./imgs/profilepic.jpg">
-    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
@@ -75,11 +75,10 @@
                 </div>
                 <div class="about-me-text">
                     <p>
-                        Hey! My name is William Espitia. I am a driven and determined 
-                        undergraduate Computer Science student with knowledge in various 
-                        programming languages, frameworks and engineering design programs.
-                        As a quick learner, dedicated student and hard worker, I take pride in my work 
-                        and intend to be a great addition to any team.
+                        Hey! I’m William Espitia — a driven and determined Computer Science and Mechanical Engineering 
+                        graduate with a passion for problem-solving and continuous learning. I pride myself on being a 
+                        quick learner and dedicated team player, focused on delivering high-quality work and contributing 
+                        to innovative solutions, while being a great addition to any team
                     </p>
                 </div>
             </div>
@@ -133,57 +132,75 @@
         <h2 class="section-title">My Skills</h2>
         <div class="skills-containers">
             <div class="programming-skills">
-                <i class='bx bxs-keyboard' id="programming-icon" style='color: red'></i>
-                <h3>Computer Programming</h3>
+                <i class='bxr  bxs-keyboard' id="programming-icon" style='color: red'></i>
+                <h3>Programming & Scripting</h3>
                 <p>Java</p>
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>Python</p>
-                <p>JavaFX</p>
                 <p>SQL</p>
-                <p>SceneBuilder</p>
+                <p>MATLAB</p>
+                <p>JavaScript</p>
+            </div>
+            <div class="frameworks-skills">
+                <i class='bxr  bx-computer' id="frameworks-icon" style='color: red'></i>
+                <h3>Frameworks & Libraries</h3>
+                <p>Flask</p>
+                <p>Pandas</p>
+                <p>Scikit-Learn</p>
+                <p>JavaFX</p>
+                <p>Scene Builder</p>
+                <p>REST API</p>
+            </div>
+            <div class="developer-skills">
+                <i class='bxr  bx-folder-code' id="developer-icon" style='color: red'></i>
+                <h3>Developer Tools</h3>
+                <p>Git</p>
+                <p>GitHub</p>
+                <p>IntelliJ IDEA</p>
+                <p>Eclipse</p>
+                <p>Netbeans</p>
+                <p>Visual Studio</p>
+                <p>Firestore</p>
+                <p>Microsoft SQL Server</p>
             </div>
             <div class="engineering-skills">
-                <i class='bx bxs-cog' id="engineering-icon" style='color: red'></i>
-                <h3>Engineering Programming</h3>
+                <i class='bxr  bx-gear' id="engineering-icon" style='color: red'></i>
+                <h3>Engineering</h3>
                 <P>AutoCAD</P>
                 <P>Inventor</P>
                 <P>SolidWorks</P>
-                <P>MATLAB</P>
                 <P>CATIA</P>
                 <p>MasterCAM</p>
                 <p>Multisim</p>
-            </div>
-            <div class="frameworks-skills">
-                <i class='bx bx-desktop' id="frameworks-icon" style='color: red'></i>
-                <h3>Frameworks</h3>
-                <p>Visual Studio</p>
-                <p>Netbeans</p>
-                <p>Eclipse</p>
-                <p>IntelliJ</p>
-                <p>Microsoft SQL Server</p>
-                <p>Atom</p>
-                <p>MySQL</p>
+                <p>MS Word</p>
+                <p>MS Excel</p>
+                <p>MS Powerpoint</p>
             </div>
         </div>
         <div class="skills-pics">
             <div class="track">
+                <img src="./imgs/api.png" width="128">
                 <img src="./imgs/atom.png" width="128">
                 <img src="./imgs/autocad.png" width="128">
                 <img src="./imgs/catia.png" width="128">
                 <img src="./imgs/css.png" width="128">
                 <img src="./imgs/eclipse.svg" width="128">
+                <img src="./imgs/flask.png" width="128">
+                <img src="./imgs/git.png" width="128">
                 <img src="./imgs/github.png" width="128">
                 <img src="./imgs/html.png" width="128">
                 <img src="./imgs/intellij.png" width="128">
                 <img src="./imgs/inventor.png" width="128">
                 <img src="./imgs/java.png" width="128">
+                <img src="./imgs/js.png" width="128">
                 <img src="./imgs/mastercam.webp" width="128">
                 <img src="./imgs/matlab.png" width="128">
                 <img src="./imgs/mssql.png" width="128">
                 <img src="./imgs/multisim.png" width="128">
                 <img src="./imgs/mysql.png" width="128">
                 <img src="./imgs/netbeans.png" width="128">
+                <img src="./imgs/pandas.png" width="128">
                 <img src="./imgs/pythton.png" width="128">
                 <img src="./imgs/scenebuilder.png" width="128">
                 <img src="./imgs/solidworks.png" width="128">
@@ -218,8 +235,9 @@
                 <img src="./imgs/plottwist.png">
                 <h3>Plot Twist</h3>
                 <p>
-                   Developed full stack social platform for writing and viewing movie reviews using HTML, CSS and JavaScript.
-                   Integrated Firebase Authentication and Firestore Database to handle user sessions, review persistence, social features and real-time data sync, and utilized TMDB API to fetch and display movie metadata, posters and banners with interactive UI elements such as star ratings and editable review modals.
+                    Developed a responsive, full-stack social movie review platform supporting 20+ active users with real-time review creation, editing, and social interactions.
+                    Integrated Firebase Authentication and cloud-hosted Firestore NoSQL database to manage user sessions, review persistence, and social features (followers, blocked users, favorites) with real-time synchronization.
+                    Consumed RESTful TMDB API to dynamically retrieve and display data for 500+ movies, including metadata, posters, and banners, with interactive UI/UX components such as star ratings and editable review modals.                    
                 </p>
                 <div class="project-buttons">
                     <a href="https://plottwistsp.web.app/">
@@ -237,6 +255,22 @@
                 <p class="reduce">Click Box To Reduce</p>
             </div>
             <div class="project-card-2" onclick="toggleImage(this)">
+                <img src="./imgs/courtsidepredictor.png" >
+                <h3>Courtside Predictor</h3>
+                <p> 
+                    Built a Flask web app analyzing 300+ NBA games (2023–2025) using Python, Pandas, and nba_api, enabling users to explore team/player stats and historical performance trends.
+                    Trained and deployed logistic regression models with scikit-learn to predict 2025–26 season team win probabilities and player over/under performance probabilities, achieving 74.65% historical accuracy.
+                    Designed a responsive HTML/CSS/JavaScript interface with Flask routing for smooth navigation between stats, predictions, and insights.
+                </p>
+                <a href="https://github.com/wespitia05/NBA_Predictor_Project.git">
+                    <button class=".btn">
+                        Github Repo
+                    </button>
+                </a>
+                <p class="large">Click Box To Enlarge</p>
+                <p class="reduce">Click Box To Reduce</p>
+            </div>
+            <div class="project-card-3" onclick="toggleImage(this)">
                 <img src="./imgs/gradeQueue.png" >
                 <h3>Grade Queue Project</h3>
                 <p>Developed a JavaFX GUI application using Java to manage/manipulate Normal and 
@@ -250,7 +284,7 @@
                 <p class="large">Click Box To Enlarge</p>
                 <p class="reduce">Click Box To Reduce</p>
             </div>
-            <div class="project-card-3" onclick="toggleImage(this)">
+            <div class="project-card-4" onclick="toggleImage(this)">
                 <img src="./imgs/guessingGame.png">
                 <h3>Guessing Game Project</h3>
                 <p>Developed a JavaFX GUI game using Java to guess shapes utilizing animated visual 
@@ -265,7 +299,7 @@
                 <p class="large">Click Box To Enlarge</p>
                 <p class="reduce">Click Box To Reduce</p>
             </div>
-            <div class="project-card-4" onclick="toggleImage(this)">
+            <div class="project-card-5" onclick="toggleImage(this)">
                 <img src="./imgs/marvelMovies.png">
                 <h3>Marvel Movies Project</h3>
                 <p>Developed a JavaFX GUI application using Java for managing movie records with functionalities 
